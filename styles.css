@@ -146,7 +146,7 @@ main {
     padding-right:20px;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 600px) {
     .location {
         width: 300px;
         padding-left: 10px;
