@@ -40,10 +40,6 @@ a {
     width: 90%;
 }
 
-.media {
-    overflow: auto;
-}
-
 /*Nav*/
 
 header {
@@ -134,25 +130,27 @@ main {
 .staff-box p {
     width: 250px;
     text-align: center;
-    padding-bottom:20px;
 }
 
 /* Contact */
 
 .contacts {
-    
+    padding-top:100px;
+    padding-bottom: 60px;
 }
 
 .location {
     flex-direction: column;
     width: 350px;
-    padding: 40px;
+    padding-left: 20px;
+    padding-right:20px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 320px) {
     .location {
         width: 300px;
-        padding: 10px;
+        padding-left: 10px;
+        padding-right:10px;
     }
 
     .media {
@@ -169,6 +167,8 @@ footer {
     justify-content: space-between;
     width: 100%;
     border-top: 2px solid black;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 .icons {
