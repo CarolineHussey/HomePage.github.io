@@ -95,19 +95,21 @@ nav ul li a:hover {
     header {
         height: 7rem;
     }
+
     header h1 {
         padding-left: 2rem;
         font-size: 1.75rem;
+        font-weight: 600;
     }
 
     nav {
         padding-right: 2rem;
     }
 
-        nav ul li {
-            font-size: 1.5rem;
-            font-weight: 600;
-        }
+    nav ul li {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
 }
 
 /* Hero */
@@ -166,10 +168,16 @@ nav ul li a:hover {
     margin-top: .1rem;
 }
 
+@media only screen and (max-width: 600px) {
+    .staff .container-card {
+        padding-bottom: 10rem;
+    }
+}
+
 /* Contact */
 
 .contacts {
-    padding-top: 110px;
+    padding-top: 100px;
 }
 
 .contact-container .container-card {
