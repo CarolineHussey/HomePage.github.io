@@ -1,0 +1,181 @@
+﻿body
+{
+    background-color: lightgrey;
+}
+
+h1, h2 {
+    font-family: 'Shadows Into Light';
+}
+
+p, h3, h4 {
+    font-family: 'Hind';
+}
+
+p {
+    margin: 8px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.flex-container {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.column-container {
+    flex-direction: column;
+    padding: 5px;
+    width: 90%;
+}
+
+/*Nav*/
+
+header {
+    position: fixed;
+    background-color: white;
+    opacity: 0.8;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header h1 {
+    padding-left: 50px;
+    font-size: 38px;
+}
+
+nav {
+    font-size: 20px;
+    font-family: 'Shadows Into Light';
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding-right: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    padding: 2px 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main */
+
+main {  
+    padding-top: 120px;
+}
+/* Hero */
+
+.hero {
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/29/10/09/bakery-1868925_1280.jpg);
+    background-repeat:no-repeat;
+    background-position-x:center;
+    height: 800px;
+    padding-bottom: 20px;
+}
+
+.banner {
+    background-color: white;
+    opacity:0.8;
+    width: inherit;
+}
+
+/* Products */
+
+.products {
+    padding-top: 100px;
+}
+
+.products div img {
+    height: 210px;
+    width: 300px;
+}
+
+
+/* Staff */
+
+.staff {
+    padding-top: 100px;
+}
+
+.staff div img {
+    height:250px;
+    width: 250px;
+}
+
+.staff-box p {
+    width: 250px;
+    text-align: center;
+    padding-bottom:20px;
+}
+
+/* Contact */
+
+.contacts {
+    
+}
+
+.location {
+    flex-direction: column;
+    width: 350px;
+    padding: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    .location {
+        width: 300px;
+        padding: 10px;
+    }
+
+    .media {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-top: 2px solid black;
+}
+
+.icons {
+    padding-left: 40px;
+}
+
+.icons h4 {
+    margin-bottom: 4px;
+    margin-top: 30px;
+}
+
+.icons img {
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+
+.small-print {
+    padding-right: 40px;
+    margin-top: 20px;
+}
+
