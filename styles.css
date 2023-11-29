@@ -40,6 +40,10 @@ a {
     width: 90%;
 }
 
+.media {
+    overflow: auto;
+}
+
 /*Nav*/
 
 header {
