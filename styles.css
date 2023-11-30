@@ -199,29 +199,29 @@ footer {
     justify-content: space-between;
     width: 100%;
     border-top: .06rem solid black;
-    padding-top: 4rem;
+    padding-top: 3rem;
     padding-bottom: 3rem;
 }
 
 .icons {
     padding-left: 4rem;
-    margin-top: .75rem;
+    margin-top: .5rem;
 }
 
 .icons h4 {
     margin-bottom: .6rem;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 .icons a img {
-    width: 3rem;
-    height: 3rem;
-    padding: 1.25rem;
+    width: 2rem;
+    height: 2rem;
+    padding: 1rem;
 }
 
 .small-print {
     padding-right: 4rem;
-    margin-top: 1rem;
+    margin-top: .75rem;
 }
 
 .small-print p {
