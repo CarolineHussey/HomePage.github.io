@@ -198,14 +198,14 @@ footer {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    border-top: .2rem solid black;
+    border-top: .1rem solid black;
     padding-top: 6rem;
     padding-bottom: 3rem;
 }
 
 .icons {
     padding-left: 4rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .icons h4 {
@@ -221,7 +221,7 @@ footer {
 
 .small-print {
     padding-right: 4rem;
-    margin-top: 1.6rem;
+    margin-top: 1rem;
 }
 
 .small-print p {
