@@ -115,10 +115,10 @@ nav ul li a:hover {
 /* Hero */
 
 .hero {
-    margin-top: 120px;
+    margin-top: 8rem;
     background-image: url(https://cdn.pixabay.com/photo/2016/11/29/10/09/bakery-1868925_1280.jpg);
-    background-repeat:no-repeat;
-    background-position-x:center;
+    background-repeat: no-repeat;
+    background-position-x: center;
     height: 800px;
 }
 
@@ -134,7 +134,7 @@ nav ul li a:hover {
 /* Products */
 
 .products {
-    padding-top: 110px;
+    padding-top: 6rem;
 }
 
 .products div img {
@@ -156,7 +156,7 @@ nav ul li a:hover {
 /* Staff */
 
 .staff {
-    padding-top: 110px;
+    padding-top: 6rem;
 }
 
 .staff h3 {
@@ -170,14 +170,18 @@ nav ul li a:hover {
 
 @media only screen and (max-width: 600px) {
     .staff .container-card {
-        padding-bottom: 10rem;
+        padding-bottom: .5rem;
+    }
+
+    .contacts {
+        padding-top: 4rem;
     }
 }
 
 /* Contact */
 
 .contacts {
-    padding-top: 100px;
+    padding-top: 6rem;
 }
 
 .contact-container .container-card {
