@@ -204,7 +204,7 @@ footer {
 }
 
 .icons {
-    padding-left: 5rem;
+    padding-left: 4rem;
     margin-top: 2rem;
 }
 
@@ -214,14 +214,14 @@ footer {
 }
 
 .icons a img {
-    width: 4rem;
-    height: 4rem;
+    width: 3rem;
+    height: 3rem;
     padding: 1.25rem;
 }
 
 .small-print {
-    padding-right: 5rem;
-    margin-top: 2rem;
+    padding-right: 4rem;
+    margin-top: 1.6rem;
 }
 
 .small-print p {
