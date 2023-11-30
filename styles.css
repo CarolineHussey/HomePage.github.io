@@ -185,8 +185,7 @@ nav ul li a:hover {
 }
 
 .contact-container .container-card {
-    padding: 0rem 5rem 0rem 5rem;
-    padding-bottom: 60px;
+    padding: 0rem 5rem 10rem 5rem;
 }
 
 .contact-container p {
@@ -199,33 +198,30 @@ footer {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    border-top: 2px solid black;
-    padding-top: 40px;
-    padding-bottom: 20px;
+    border-top: .5rem solid black;
+    padding-top: 8rem;
+    padding-bottom: 3rem;
 }
 
 .icons {
-    padding-left: 40px;
+    padding-left: 8rem;
+    margin-top: 3rem;
 }
 
 .icons h4 {
-    margin-bottom: 4px;
-    margin-top: 30px;
+    margin-bottom: .5rem;
+    font-size: 1.15rem;
 }
 
-.icons img {
-    width: 30px;
-    height: 30px;
-    padding: 10px;
+.icons a img {
+    width: 8rem;
+    height: 8rem;
+    padding: 3rem;
 }
 
 .small-print {
-    padding-right: 40px;
-    margin-top: 20px;
-}
-
-.icons h4 {
-    font-size: 1.15rem;
+    padding-right: 8rem;
+    margin-top: 3rem;
 }
 
 .small-print p {
