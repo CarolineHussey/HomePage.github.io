@@ -198,30 +198,30 @@ footer {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    border-top: .5rem solid black;
-    padding-top: 8rem;
+    border-top: .2rem solid black;
+    padding-top: 6rem;
     padding-bottom: 3rem;
 }
 
 .icons {
-    padding-left: 8rem;
-    margin-top: 3rem;
+    padding-left: 5rem;
+    margin-top: 2rem;
 }
 
 .icons h4 {
-    margin-bottom: .5rem;
-    font-size: 1.15rem;
+    margin-bottom: .6rem;
+    font-size: 1.5rem;
 }
 
 .icons a img {
     width: 4rem;
     height: 4rem;
-    padding: 1rem;
+    padding: 1.25rem;
 }
 
 .small-print {
-    padding-right: 8rem;
-    margin-top: 3rem;
+    padding-right: 5rem;
+    margin-top: 2rem;
 }
 
 .small-print p {
