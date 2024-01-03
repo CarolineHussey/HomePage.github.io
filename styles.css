@@ -123,8 +123,6 @@ nav ul li a:hover {
 }
 
 .banner {
-    box-sizing: border-box;
-    padding: 0.8rem 1.6rem;
     margin: auto;
     background-color: white;
     opacity:0.8;
