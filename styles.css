@@ -106,17 +106,18 @@ nav ul li a:hover {
     }
 
     header h1 {
-        padding-left: 0.8rem;
-        font-size: 1.5rem;
+        padding-left: 0.2rem;
+        font-size: 1.15rem;
         font-weight: 500;
     }
 
     nav {
-        padding-right: 0.8rem;
+        padding-right: 0.2rem;
     }
 
     nav ul li {
-        font-size: 1.25rem;
+        font-size: 1rem;
+        padding: 0.1rem 0.3rem;
         font-weight: 400;
     }
 }
