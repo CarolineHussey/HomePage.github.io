@@ -106,17 +106,17 @@ nav ul li a:hover {
     }
 
     header h1 {
-        padding-left: 2rem;
-        font-size: 1.75rem;
+        padding-left: 0.8rem;
+        font-size: 1.5rem;
         font-weight: 500;
     }
 
     nav {
-        padding-right: 2rem;
+        padding-right: 0.8rem;
     }
 
     nav ul li {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         font-weight: 400;
     }
 }
@@ -128,7 +128,7 @@ nav ul li a:hover {
     background-image: url(https://cdn.pixabay.com/photo/2016/11/29/10/09/bakery-1868925_1280.jpg);
     background-repeat: no-repeat;
     background-position-x: center;
-    height: 800px;
+    height: 10rem;
 }
 
 .banner {
