@@ -1,6 +1,7 @@
 ﻿body
 {
     background-color: lightgrey;
+    display: block;
 }
 
 h1, h2 {
@@ -61,7 +62,6 @@ a {
 /*Nav*/
 
 header {
-    margin: 0;
     position: fixed;
     background-color: white;
     opacity: 0.8;
